@@ -4,18 +4,6 @@
 
 This project involves exploring the Wine dataset, building machine learning models, and generating model cards for each model. The Wine dataset contains chemical analysis results of wines grown in the same region in Italy but derived from three different cultivars. The goal is to classify the wines based on their chemical properties.
 
-## Directory Structure
-
-├── notebooks
-│ └── 01-notebook.ipynb # Jupyter notebook with data exploration and model training
-├── model_cards # Directory where generated model cards are saved
-├── data # Directory containing the Wine dataset
-├── models # Directory to save trained models
-|-- requirements.txt
-|-- LICENSE
-|-- pyproject.toml
-└── README.md # Project README file
-
 ## Getting Started
 
 ### Prerequisites
@@ -33,7 +21,7 @@ git clone https://github.com/BlvckSanek/experiment
 cd experiment
 ```
 
-2.Install the required libraries
+2. Install the required libraries
 
 ```sh
 pip install -r requirements.txt
@@ -41,19 +29,19 @@ pip install -r requirements.txt
 
 ### Running the Notebook
 
-1. Navigate to the [`notebook`](/notebooks)
+1. Navigate to the [`notebook`](/notebooks) directory
 
 ```sh
 cd notebooks
 ```
 
-2.Start Jupyter Notebook:
+2. Start Jupyter Notebook:
 
 ```sh
 jupyter notebook
 ```
 
-3.Open [`01-notebook.ipynb`](/notebooks/01-notebook.ipynb)
+3. Open [`01-notebook.ipynb`](/notebooks/01-notebook.ipynb) and run the code cells.
 
 ## Contributing
 
